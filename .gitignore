@@ -1,0 +1,24 @@
+# 忽略整个文件夹（例如 data/、logs/、output/）
+data/
+logs/
+output/
+temp/
+__pycache__/
+
+# 忽略特定文件
+*.log
+*.tmp
+.DS_Store
+
+# 忽略文件夹但保留文件夹结构（不追踪里面的文件）
+uploads/*
+
+# 忽略特定类型的文件
+*.pyc
+*.pkl
+*.npy
+*.h5
+
+# 忽略环境配置文件
+.env
+config.local.py
